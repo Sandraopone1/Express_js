@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/the.css') }}">
+</head>
+<body>
+	
+
+ <h1>Dojo Survey</h1>
+
+         <ul>
+            <li>Your Name: <%= data.name %></li>
+            <li>Your Location: <%= data.places %></li>
+            <li>Your Language: <%= data.language %></li>
+            <li>Your Comment: <%= data.textarea %></li>
+        </ul>
+</body>
+</html>
